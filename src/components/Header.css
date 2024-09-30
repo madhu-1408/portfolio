@@ -1,0 +1,77 @@
+/* Base styles for the navbar */
+.custom-navbar {
+    font-family: "Comic Sans MS", sans-serif;
+    border-bottom: 2px solid wheat; /* Wheat bottom border */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Style for the navbar at the top of the page */
+.navbar-top {
+    background-color: black; /* Black background when at the top */
+    color: wheat; /* Wheat text when at the top */
+}
+
+/* Set wheat color for navbar brand and links at the top */
+.navbar-top .navbar-brand,
+.navbar-top .nav-link {
+    color: wheat; /* Wheat text color for brand and links */
+}
+
+/* Handle active and focus states when at the top */
+.navbar-top .navbar-brand:focus,
+.navbar-top .nav-link:focus,
+.navbar-top .nav-link.active {
+    color: wheat !important; /* Force wheat color when focused or active */
+}
+
+.navbar-top .navbar-brand:hover,
+.navbar-top .nav-link:hover {
+    color: ivory; /* Change to ivory on hover */
+}
+
+/* Style for the navbar when scrolled */
+.navbar-scrolled {
+    background-color: ivory; /* Ivory background when scrolled */
+    color: black; /* Black text when scrolled */
+}
+
+/* Set black color for navbar brand and links when scrolled */
+.navbar-scrolled .navbar-brand,
+.navbar-scrolled .nav-link {
+    color: black; /* Black text color for brand and links */
+}
+
+/* Handle active and focus states when scrolled */
+.navbar-scrolled .navbar-brand:focus,
+.navbar-scrolled .nav-link:focus,
+.navbar-scrolled .nav-link.active {
+    color: black !important; /* Force black color when focused or active */
+}
+
+.navbar-scrolled .navbar-brand:hover,
+.navbar-scrolled .nav-link:hover {
+    color: wheat; /* Change to wheat on hover when scrolled */
+}
+
+/* Navbar toggler styles */
+.custom-navbar .navbar-toggler {
+    border-color: wheat; /* Wheat toggle button border */
+}
+
+.custom-navbar .navbar-toggler-icon {
+    background-color: wheat; /* Wheat toggle icon */
+}
+
+/* Center the nav links */
+.custom-navbar .navbar-collapse {
+    justify-content: center;
+}
+
+.custom-navbar .nav {
+    width: 100%;
+    text-align: center; /* Center links */
+}
+
+.custom-navbar .nav-link {
+    margin: 0 10px; /* Add some spacing between links */
+}

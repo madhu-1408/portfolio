@@ -1,0 +1,80 @@
+body {
+    overflow-x: hidden; /* Prevent horizontal overflow */
+}
+
+.about-section {
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    min-height: 100vh; /* Full height of the viewport */
+    background-color: #000000; /* Black background */
+    color: #F5DEB3; /* Wheat text color */
+    text-align: left; /* Align text to the left by default */
+    padding: 1rem; /* Add some padding for responsiveness */
+    font-family: "Comic Sans MS", sans-serif;
+}
+
+.about-content {
+    display: flex;
+    align-items: center; /* Center the items vertically */
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+    gap: 1.5rem; /* Space between image and text */
+}
+
+.profile-image {
+    width: 250px; /* Adjust size */
+    border-radius: 50%;
+    border: 3px solid #F5DEB3; /* Wheat border */
+    height: 250px; /* Adjust height to maintain aspect ratio */
+    object-fit: cover; /* Ensures the image covers the entire area */
+    transition: transform 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.profile-image:hover {
+    transform: scale(1.1); /* Slight zoom on hover */
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column; /* Stack h5 and p vertically */
+    justify-content: center; /* Vertically center the text */
+    max-width: 300px; /* Limit text width for better readability */
+}
+
+.about-content h5 {
+    margin: 0; /* Remove default margin */
+    font-size: 1.5rem; /* Adjust font size */
+    margin-bottom: 0.5rem; /* Space below the heading */
+    color: #F5DEB3; /* Wheat for headings */
+}
+
+.about-content p {
+    color: ivory;
+    margin: 0; /* Remove default margin */
+    font-size: 1rem; /* Adjust font size */
+    line-height: 1.5; /* Adjust line height for readability */
+}
+
+/* Mobile view adjustments */
+@media (max-width: 768px) {
+    .about-section {
+        text-align: center; /* Center text for mobile */
+        padding: 2rem 1rem; /* Adjust padding */
+    }
+
+    .about-content {
+        flex-direction: column; /* Stack image and text vertically */
+        align-items: center; /* Center items */
+    }
+
+    .profile-image {
+        width: 200px; /* Smaller image for mobile */
+        height: 200px;
+    }
+
+    .text-content {
+        max-width: 100%; /* Allow text to take full width */
+    }
+
+
+}

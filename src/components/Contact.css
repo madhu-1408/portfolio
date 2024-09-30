@@ -1,0 +1,59 @@
+body {
+    overflow-x: hidden;
+}
+
+.hcont {
+    text-align: center;
+    color: #000;    
+}
+
+.contact-section {
+    background-color: ivory; /* Background color remains black */
+    color: #000; /* Text color changed to cyan */
+    padding: 60px 0;
+    font-family: "Comic Sans MS", sans-serif;
+}
+
+.contact-section h1 {
+    color: #000; /* Cyan color for the heading */
+    text-align: center; /* Center the heading */
+}
+
+.contact-section .form-label {
+    color: #000; /* Cyan color for labels */
+    font-weight: bold; /* Make labels bold */
+}
+
+.contact-section .form-control {
+    background-color: #f5deb391; /* Dark background for input fields */
+    color: #000; /* White text color for input fields */
+    border: 1px solid #f5deb391; /* Cyan border */
+    border-radius: 0.25rem; /* Rounded corners */
+    padding: 0.75rem; /* Padding inside the input fields */
+}
+
+.contact-section .form-control::placeholder {
+    color: #f5deb391; /* Cyan placeholder text */
+}
+
+.contact-section .form-control:focus {
+    background-color: #f5deb391; /* Darker background on focus */
+    border-color: #f5deb391; /* Cyan border on focus */
+}
+
+.contact-section button {
+    text-align: center;
+    background-color: #f5deb391; /* Cyan button background */
+    color: #000; /* White text color for button */
+    border: none; /* No border */
+    padding: 0.75rem 1.5rem; /* Button padding */
+    border-radius: 0.25rem; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s ease; /* Smooth transition for hover */
+    margin-top: 1rem; /* Space above the button */
+}
+
+.contact-section button:hover {
+    background-color: #E5C293; /* Darker cyan on hover */
+    color: #000
+}

@@ -1,0 +1,40 @@
+.footer {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    color: #000; /* Default text color */
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    font-family: "Comic Sans MS", sans-serif;
+}
+
+.footer-top {
+    background-color: black; /* Footer background color at the top of the page */
+    color: wheat; /* Text color at the top of the page */
+}
+
+.footer-scrolled {
+    background-color: ivory; /* Footer background color when scrolled */
+    color: black; /* Text color when scrolled */
+}
+
+.social-links {
+    text-align: center;
+}
+
+.social-links a {
+    margin: 0 15px;
+    color: inherit; /* Use the inherited text color */
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+    color: inherit;
+}

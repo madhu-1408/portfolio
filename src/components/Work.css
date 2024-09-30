@@ -1,0 +1,30 @@
+.vertical-timeline-element-content {
+    transition: background-color 0.3s ease; /* Smooth transition for content */
+    background-color: #000000; /* Black background for the content */
+}
+
+/* Other styles */
+.work-section {
+    font-family: "Comic Sans MS", sans-serif;
+    padding: 60px 0;
+    background-color: #000000; /* Black background for the section */
+    color: #F5DEB3; /* Wheat text color */
+}
+
+.hwork {
+    color: #F5DEB3; /* Wheat heading color */
+    text-align: center;
+    text-shadow: none; /* Remove glowing effect */
+}
+
+.vertical-timeline-element-title {
+    color: #F5DEB3; /* Wheat color for the job title */
+}
+
+.vertical-timeline-element-subtitle {
+    color: #F5DEB3; /* Wheat color for the company name */
+}
+
+.vertical-timeline-element-content {
+    color: #F5DEB3; /* Wheat color for the description */
+}

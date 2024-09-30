@@ -1,0 +1,84 @@
+body {
+    overflow-x: hidden;
+    background-color: ivory; /* White background */
+}
+
+.skills-section h1 {
+    color: #000000; /* Black color for the heading */
+    text-shadow: none; /* Remove glowing effect */
+    text-align: center; /* Center the heading */
+    margin-bottom: 1rem; /* Adjust margin as needed */
+}
+
+.skills-section {
+    background-color: ivory; /* White background */
+    color: #000000; /* Black text color */
+    padding: 50px 0; /* Add some vertical padding */
+    font-family: "Comic Sans MS", sans-serif;
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: column; /* Stack categories vertically */
+    align-items: center; /* Center categories */
+    max-width: 1200px; /* Optional: set a max width */
+    margin: 0 auto; /* Center the container */
+    width: 100%; /* Ensure full width */
+}
+
+.skill-category {
+    display: flex; /* Use flexbox for category title and skills */
+    flex-direction: column; /* Stack title and skills vertically for mobile */
+    align-items: center; /* Center items */
+    margin: 20px 0; /* Space between categories */
+    text-align: center; /* Center text */
+    transition: transform 0.2s; /* Add transition for hover effect */
+    background-color: #f5deb391; /* Wheat color for the category box */
+    padding: 20px; /* Padding inside the box */
+    border-radius: 5px; /* Rounded corners for the box */
+}
+
+.skill-category:hover {
+    transform: scale(1.05); /* Slightly scale up on hover */
+}
+
+.skill-category-title {
+    font-size: 1.5rem; /* Adjust title size */
+    margin-bottom: 10px; /* Space between title and skills */
+    color: #000000; /* Black color for category titles */
+}
+
+.skill-list {
+    display: flex; /* Align skills horizontally */
+    flex-wrap: wrap; /* Allow skills to wrap */
+    justify-content: center; /* Center skills */
+}
+
+.skill-item {
+    margin: 5px; /* Space between skills */
+    padding: 8px 15px; /* Increase padding for better appearance */
+    border: 1px solid #000000; /* Black border for visibility */
+    border-radius: 5px; /* Rounded corners */
+    background-color: transparent; /* Wheat background for skill items */
+    transition: background-color 0.3s, transform 0.2s; /* Add transition for hover effect */
+}
+
+.skill-item:hover {
+    background-color: #e5c19368; /* Darker wheat color on hover */
+    transform: translateY(-2px); /* Slightly lift on hover */
+}
+
+/* Media query for responsive design */
+@media (max-width: 768px) {
+    .skill-category {
+        flex-direction: column; /* Stack title and skills for smaller screens */
+    }
+
+    .skill-list {
+        justify-content: center; /* Center skills for mobile */
+    }
+
+    .skill-category-title {
+        margin-bottom: 5px; /* Adjust space for mobile */
+    }
+}

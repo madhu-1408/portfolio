@@ -1,0 +1,67 @@
+.projects-section {
+    background-color: #000000; /* Black background color */
+    color: #000; /* White text color */
+    padding: 60px 0;
+    font-family: "Comic Sans MS", sans-serif;
+}
+
+.project-item {
+    background-color: #F5DEB3; /* Wheat background color for project items */
+    padding: 15px; /* Reduced inner padding */
+    margin-bottom: 10px; /* Reduced vertical spacing between items */
+    border-radius: 8px; /* Rounded corners */
+    text-align: center; /* Center-align text and buttons */
+    transition: transform 0.3s; /* Smooth transform effect on hover */
+    display: flex; /* Enable flexbox */
+    flex-direction: column; /* Align items in a column */
+    justify-content: flex-start; /* Align content to the top */
+    height: 100%; /* Make all project items the same height */
+    min-height: 350px; /* Minimum height for equal height */
+}
+
+.project-title {
+    font-size: 1.2em; /* Adjust font size */
+    color: #000; /* White color for project title */
+    margin-bottom: 8px; /* Reduced space between title and image */
+    font-weight: bold; /* Make the text bold */
+}
+
+.project-item:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.project-image {
+    width: 100%; /* Make images responsive */
+    height: 200px; /* Fixed height for all images */
+    border-radius: 8px; /* Rounded corners for images */
+    margin-bottom: 8px; /* Reduced space between image and button */
+    object-fit: cover; /* Crop the images to fit the container while maintaining aspect ratio */
+}
+
+.btn-pink {
+    background-color: #E5C293;
+    color: #000000 !important; /* Black text color for the button */
+    border: none; /* Remove border */
+    padding: 8px 15px; /* Reduced padding */
+    border-radius: 5px; /* Rounded corners */
+    font-weight: bold; /* Bold text */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transition */
+    margin-top: 10px; /* Minimal space above the button */
+}
+
+.btn-pink:hover {
+    background-color: #f5deb391 !important; /* Darker wheat on hover */
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.6); /* Subtle white glow on hover */
+}
+
+.hproj {
+    text-align: center;
+    color: ivory; /* White color for the heading */
+    text-shadow: none; /* Remove glowing effect */
+    margin-bottom: 50px;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #000000; /* Black background */
+}

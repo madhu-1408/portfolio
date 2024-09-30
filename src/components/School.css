@@ -1,0 +1,107 @@
+.school-section {
+    background-color: ivory; /* White background */
+    padding: 60px 0; /* Padding for the section */
+    font-family: "Comic Sans MS", sans-serif;
+}
+
+.section-title {
+    text-align: center;
+    color: #000000; /* Black color for text */
+    margin-bottom: 1rem; /* Adjust margin as needed */
+    text-shadow: none; /* Remove glowing effect */
+}
+
+.school-item {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border-radius: 0.5rem; /* Rounded corners */
+    background-color: #f5deb391; /* Wheat color for items */
+    box-shadow: none; /* Remove glow effect */
+    transition: background-color 0.3s ease; /* Smooth transition */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.school-item.expanded {
+    background-color: #f5deb391; /* Keep wheat color when expanded */
+}
+
+.school-header {
+    display: flex;
+    align-items: center; /* Aligns items vertically */
+    justify-content: space-between; /* Spaces out the content */
+}
+
+.school-info {
+    flex-grow: 1; /* Allow content to grow */
+}
+
+.school-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #000000; /* Black color for the school name */
+}
+
+.degree-info,
+.location {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    color: #000000; /* Black color for degree information and location */
+}
+
+.date {
+    display: inline-block;
+    font-size: 1rem;
+    color: #000000; /* Black color for date */
+}
+
+.toggle-symbol {
+    font-size: 2rem; /* Larger font size for the + symbol */
+    font-weight: bold;
+    color: #000000; /* Black color for the symbol */
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.toggle-symbol:hover {
+    transform: scale(1.2); /* Enlarge on hover */
+}
+
+.coursework-content {
+    padding-top: 1rem; /* Space above the coursework content */
+    padding-left: 1rem; /* Indent for coursework content */
+    margin-top: 1rem; /* Space above the coursework content */
+    border-top: 1px solid #000000; /* Black border separating coursework */
+}
+
+.coursework-content h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #000000; /* Black color for "RELEVANT COURSEWORK" */
+    margin-bottom: 0.5rem;
+}
+
+.coursework-content p {
+    font-size: 1rem;
+    color: #000000; /* Black color for the coursework list */
+    margin-bottom: 0.5rem;
+}
+
+.awards-content {
+    margin-top: 1rem; /* Space above awards section */
+    padding-left: 1rem; /* Indent for awards content */
+}
+
+.awards-content h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #000000; /* Black color for "Honors & Awards" */
+    margin-bottom: 0.5rem;
+}
+
+.award-item {
+    margin-bottom: 1rem; /* Space between awards */
+    padding: 0.5rem; /* Padding for each award */
+    border-left: 4px solid #000000; /* Black left border for awards */
+    background-color: #f5deb391; /* Wheat background for awards */
+    color: #000000; /* Black color for award text */
+}
